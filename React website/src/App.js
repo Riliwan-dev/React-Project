@@ -1,13 +1,34 @@
- import './App.css';
- import Navbar from './components/Navbar';
- import { BrowserRouter, Router, Switch, Route } from 'react-router-dom';
+//  import './App.css';
+//  import Navbar from './components/Navbar';
+//  import { BrowserRouter, Router, Switch, Route } from 'react-router-dom';
+
+// function App() {
+//   return (
+//     <>
+//     <BrowserRouter>
+//      <Navbar/>
+//      <Switch>
+//       <Route path="/" exact/>
+//      </Switch>
+//      </BrowserRouter>
+//     </>
+//   );
+// }
+
+// export default App;
+import './App.css';
+import Navbar from './components/Navbar';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
 
 function App() {
   return (
     <>
-    <Router>
-     <Navbar/>
-     </Router>
+      <BrowserRouter>
+        <Navbar />
+        <Routes>
+          <Route path="/" EXact />
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }
