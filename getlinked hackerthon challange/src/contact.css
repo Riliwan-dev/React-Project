@@ -1,0 +1,227 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Poppins:ital,wght@0,200;0,400;0,500;0,600;0,700;1,100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,200;0,400;0,500;0,600;0,700;1,100&display=swap");
+:root {
+  --primary-color: #150e28;
+  --secondary-color: #903aff;
+  --color3: #d434fe;
+  --header-font: "Clash Display", sans-serif;
+  --body-font: "Montserrat", sans-serif;
+}
+.contact .header {
+  border: none;
+  height: 70px;
+}
+.contact .header nav .nav-list ul li .diff {
+  background: linear-gradient(to right, var(--secondary-color), var(--color3));
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+.contact .all {
+  position: relative;
+  display: flex;
+  padding-top: 100px;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+  padding-left: 6rem;
+  padding-right: 6rem;
+}
+.contact .all h2 {
+  color: #d434fe;
+  font-family: var(--header-font);
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.contact .all .right p {
+  color: #fff;
+  font-family: var(--body-font);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.contact .all .right {
+  display: grid;
+  gap: 20px;
+}
+.contact .all .right .follow span {
+  color: #d434fe;
+  font-family: var(--header-font);
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+.contact .all .right .follow img {
+  margin-left: 10px;
+}
+.contact .all .left .box {
+  border-radius: 12px;
+  background: rgba(255, 255, 255, 0.03);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  width: fit-content;
+  height: fit-content;
+  flex-shrink: 0;
+  padding: 3rem;
+}
+.contact .all .left .box p {
+  color: #d434fe;
+  font-family: var(--header-font);
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: normal;
+}
+.contact .all .left form {
+  display: grid;
+  gap: 20px;
+  margin-top: 20px;
+}
+.contact .all .left form input {
+  border-radius: 4px;
+  border: 1px solid #fff;
+  background: rgba(255, 255, 255, 0.03);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  width: 437px;
+  height: 47px;
+  outline: none;
+  color: #fff;
+  padding-left: 1rem;
+}
+.contact .all .left form textarea {
+  border-radius: 4px;
+  border: 1px solid #fff;
+  background: rgba(255, 255, 255, 0.03);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  width: 437px;
+  outline: none;
+  color: #fff;
+  height: 119px;
+  padding-left: 1rem;
+  padding-top: 1rem;
+}
+.contact .all .left form input::placeholder,
+.contact .all .left form textarea::placeholder {
+  color: #fff;
+}
+.contact .all .left form .sub {
+  padding: 0;
+  border-radius: 4px;
+  background: linear-gradient(
+    270deg,
+    #903aff 0%,
+    #d434fe 56.42%,
+    #ff26b9 99.99%,
+    #fe34b9 100%
+  );
+  width: 172px;
+  height: 53px;
+  flex-shrink: 0;
+  border: none;
+  margin: 0 auto;
+}
+.left .box span, form .topic, .icon{
+  display: none;
+}
+.all .starpu, .all .starpu2, .all .star, .all .star2{
+position: absolute;
+}
+.all .starpu{
+  width: 21px;
+height: 25px;
+top: 20%;
+left: 10%;
+}
+.all .starpu2{
+width: 30px;
+height: 36px;
+top: 80%;
+left: 48%;
+} .all .star{
+width: 26px;
+height: 32px;
+top: 87%;
+left: 93%;
+} .all .star2{
+width: 26px;
+height: 32px;
+top: 15%;
+left: 90%;
+}
+@media (max-width: 768px) {
+  .contact .all{
+    flex-direction: column;
+  }
+  .contact .all .right{display: none;}
+  .left .box span, form .topic{
+  display: block;
+}
+.left .box span{
+  color: #FFF;
+font-family: var(--body-font);
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;margin-top: 20px;
+}
+.contact .all .left form input {
+ 
+  width: 100%;
+  height: 47px;
+
+}
+.contact .all .left form textarea {
+
+  width: 100%;
+
+  height: 160px;
+
+}
+.contact .all .left .box {
+ 
+  padding: 1rem;
+}
+  .nav-list{
+
+    top: 90px;
+ 
+
+  }
+  .contact .all {
+ 
+  padding-left: 1rem;
+  padding-right: 1rem;
+}
+.icon{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  gap: 20px;
+}
+.all .starpu{
+width: 11px;
+height: 13px;
+top: 10%;
+left: 50%;
+}
+.all .starpu2{
+width: 12px;
+height: 14px;
+top: 87%;
+left: 8%;
+} .all .star{
+width: 12px;
+height: 14px;
+top: 78%;
+left: 93%;
+} .all .star2{
+width: 16px;
+height: 20px;
+top: 12%;
+left: 90%;
+}
+}

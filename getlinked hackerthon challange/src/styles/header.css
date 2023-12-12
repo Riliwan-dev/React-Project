@@ -1,0 +1,120 @@
+:root {
+  --primary-color: #150E28;
+  --secondary-color: #903AFF;
+  --color3: #d434fe;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 1;
+  height: 141px;
+  background-color:var(--primary-color);
+  color: #fff;
+  padding-top: 20px;
+  text-align: center;
+  transition: all 0.3s ease;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-right: 15.79%;
+  border-bottom: 1px solid 
+#FFFFFF;
+}
+.header .logo{
+    padding-left: 6.86%;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 44.28px;
+    font-family: 'Clash Display', sans-serif;
+    width: 171px;
+    height: 44px;
+    /* padding-top: 50px; */
+}
+.header .logo span{
+    color: var(--color3);
+}
+.menu-icon {
+  cursor: pointer;
+  display: none;
+}
+
+.menu-icon img {
+  width: 30px; /* Adjust the size as needed */
+  height: 30px;
+}
+.nav-list{
+   /* padding-top: 43px; */
+   display: flex;
+   align-items: center;
+   gap: 20px;
+}
+nav .register{
+  text-decoration: none;
+  color: white;
+  text-transform: capitalize;
+  height: 53px;
+  width: 172px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+  background: linear-gradient(to right,var(--secondary-color), var(--color3));
+}
+.nav-list ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  /* justify-content: center; */
+}
+
+.nav-list ul li {
+  margin: 0 10px;
+}
+
+.nav-list ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Add media queries for responsiveness */
+@media (max-width: 768px) {
+    .header {
+  padding-right: 4.79%;
+}
+  .menu-icon {
+    display: block;
+  }
+
+  .nav-list{
+    z-index: 1;
+    height: 492px;
+    flex-direction: column;
+    align-items:flex-start;
+    position: absolute;
+    top: 140px;
+    left: -100%;
+    width: 100%;
+    background-color: var(--primary-color);
+    transition: left 0.3s ease;
+    justify-content: left;
+    padding: 1rem;
+    border-radius: 8px;
+    gap: 30px;
+
+  }
+  .nav-list ul{
+     flex-direction: column;
+     gap: 30px;
+     text-align: left;
+    /* align-items: center; */
+   
+  }
+
+  .nav-list.open {
+    left: 0;
+  }
+}
