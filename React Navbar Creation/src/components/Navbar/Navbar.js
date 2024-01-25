@@ -1,24 +1,28 @@
-import React, { Component } from 'react';
-import {MenuItems} from './menuItems'
+// import React, { Component } from "react";
+// import { MenuItems } from "./MenuItems"
 
-class Navbar extends Component{
-    render(){
-        <nav className='NavbarItems'>
-            <h1 className='navbar-logo'>React<i fab fa-react></i></h1>
+// class Navbar extends Component {
+//     render() {
+//         return(
+//         <nav className='NavbarItems'>
+//             <h1 className='navbar-logo'>React<i className='fab fa-react'></i></h1>
+//             <div className='menu-icon'>
 
-            <div className='menu-icon'>
+//             </div>
+//             <ul>
+//                 {MenuItems.map((item, index) => {
+//                     return(
+//                         <li key={index}>
+//                             <a className={item.cName} href={item.url}>
+//                                 {item.title}
+//                             </a>
+//                         </li>
+//                         )  
+//             })}
+//             </ul>
+//         </nav>
+//         )
+//     }
+// }
 
-            </div>
-        <ul>
-            {MenuItems.map((items,index) => {
-
-            <li key={index}>
-                <a className={Items.cName} href={items.url}>
-                {items.title}
-                </a>
-            </li>
-        })}
-        </ul>
-        </nav>
-    }
-}
+// export default Navbar;

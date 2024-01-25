@@ -6,26 +6,26 @@ const MenuItems = [
     },
 
     {
-        title : 'Home',
+        title : 'Services',
         url : '#',
         cName : 'nav-links'
     },
 
     {
-        title : 'Home',
+        title : 'Products',
         url : '#',
         cName : 'nav-links'
     },
 
     {
-        title : 'Home',
+        title : 'Contact us',
         url : '#',
         cName : 'nav-links'
     },
 
     {
-        title : 'Home',
+        title : 'Sign up',
         url : '#',
-        cName : 'nav-links'
+        cName : 'nav-links-mobile'
     },
 ]
