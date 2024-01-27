@@ -1,0 +1,7 @@
+.NavbarItems{
+    background: lin(90deg, rgb(110, 94, 254) 0%, rgbargb(73, 63, 252, 1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80px;
+}

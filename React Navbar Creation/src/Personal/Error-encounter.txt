@@ -1,0 +1,25 @@
+incorrect Navbar export default Navbar;
+
+error 2
+// ReactDOM.render(<App />, document.getElementById('root')); // error
+
+correct
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(<App />);
+
+
+error 3
+   state = {Clicked ? false};
+            // Noted error 1( this is not a question 
+            // tag or multiple choice like tinary 
+            // operation or if or ifelse)
+            state = {Clicked : false};
+
+            correct // clicked is always declared as a small letter
+             state = {clicked : false};
+
+            and is always declared outside like this
+            
+            export class Navbar extends Component {
+            state = {clicked : false};
+            }
