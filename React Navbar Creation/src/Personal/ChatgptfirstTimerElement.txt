@@ -1,1 +1,2 @@
 this.handleClick
+justify-self: flex-start;
