@@ -10,9 +10,7 @@ root.render(<App />);
 
 error 3
    state = {Clicked ? false};
-            // Noted error 1( this is not a question 
-            // tag or multiple choice like tinary 
-            // operation or if or ifelse)
+            // Noted error 1 this is not conditional statement
             state = {Clicked : false};
 
             correct // clicked is always declared as a small letter
@@ -23,3 +21,9 @@ error 3
             export class Navbar extends Component {
             state = {clicked : false};
             }
+
+error 4 
+         (buttonSize ?
+               correct //  declaration of condition statement 
+               should always be in this format  
+               (buttonSize) ?
