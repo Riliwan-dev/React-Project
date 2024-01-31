@@ -26,4 +26,14 @@ error 4
          (buttonSize ?
                correct //  declaration of condition statement 
                should always be in this format  
-               (buttonSize) ?
+               (buttonSize) ? "false" : "true"
+
+error 5 
+            <button className='{btn ${checkButtonStyle} ${checkButtonStyle}}'
+            correct // the quote can't surround the curly brace i.e '{wrong declaration}'
+            correct // {'correct declaration "}
+
+error 5
+            className={'btn ${checkButtonStyle} ${checkButtonStyle}'} 
+            CORRECT // USE BACKTICT FOR MULTIPLE STUFF LIKE this
+            className={`btn ${checkButtonStyle} ${checkButtonSize}`}

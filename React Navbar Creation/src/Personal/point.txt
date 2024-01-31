@@ -1,1 +1,3 @@
-navbar creation in consist of three tag
+1. navbar creation in consist of three tag
+2. backticks (``) goes with template literals ${} i.e (${})
+3. 
