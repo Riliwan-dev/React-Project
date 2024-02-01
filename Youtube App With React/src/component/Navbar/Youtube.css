@@ -1,0 +1,58 @@
+.youtube {
+    background-color: #722a2a;
+    padding: 17px 27px;
+  }
+  
+  .navbar {
+    display: flex;
+    flex-wrap: wrap; 
+    /* // Enable wrapping for responsiveness */
+  }
+
+  .fa-bars {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 1rem;
+  }
+  
+  .start{
+    display: flex;
+    flex-grow: 5; 
+    /* // 2 parts */
+  }
+  
+  .second-div {
+    flex-grow: 4; 
+    /* // 4 parts */
+  }
+  
+  .third-div {
+    flex-grow: 8; 
+    /* // 8 parts (largest) */
+  }
+  
+  .fourth-div {
+    flex-grow: 3; 
+    /* // 3 parts */
+  }
+  
+  .part-1,
+  .part-2,
+  .second-div,
+  .third-div,
+  .fourth-div {
+    padding: 10px;
+    border: 1px solid #eee;
+    margin: 5px;
+  }
+  
+  /* Media queries for responsiveness (adjust as needed) */
+  @media (max-width: 768px) {
+    .first-div,
+    .second-div,
+    .third-div,
+    .fourth-div {
+      flex-grow: 1; 
+      /* // Equal parts on smaller screens */
+    }
+  }
