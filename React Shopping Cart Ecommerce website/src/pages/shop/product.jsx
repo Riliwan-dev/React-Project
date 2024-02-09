@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 export const Product = (props) => {
     const {id, productName, price, productImage} = props.data;
@@ -7,6 +7,6 @@ export const Product = (props) => {
       product
     </div>
   )
-}
+};
 
-export default Product
+// export default Product
