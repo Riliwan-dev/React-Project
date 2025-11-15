@@ -4,6 +4,7 @@ const App = () => {
   return (
     <main>
       <Routes>
+        <link rel="stylesheet" href="" />
     <span className='bg-red-500'>App</span>
       </Routes>
     </main>
